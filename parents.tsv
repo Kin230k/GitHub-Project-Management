@@ -1,0 +1,104 @@
+Title	URL	Parent issue
+Phase: Project Initiation	https://github.com/Kin230k/Template2/issues/1	
+Phase: Communication Plan	https://github.com/Kin230k/Template2/issues/2	
+Phase: Requirements Gathering & Analysis	https://github.com/Kin230k/Template2/issues/3	
+Phase: Sprint Planning	https://github.com/Kin230k/Template2/issues/4	
+Phase: System Architecture	https://github.com/Kin230k/Template2/issues/5	
+Phase: Design Phase	https://github.com/Kin230k/Template2/issues/6	
+Phase: Development	https://github.com/Kin230k/Template2/issues/7	
+Phase: Testing & Quality Assurance	https://github.com/Kin230k/Template2/issues/8	
+Phase: Deployment	https://github.com/Kin230k/Template2/issues/9	
+Phase: Sprint Retrospective	https://github.com/Kin230k/Template2/issues/11	
+Phase: Status Reporting	https://github.com/Kin230k/Template2/issues/10	
+Phase: Maintenance & Support	https://github.com/Kin230k/Template2/issues/12	
+Identify Stakeholders	https://github.com/Kin230k/Template2/issues/13	https://github.com/Kin230k/Template2/issues/1
+Define Project Objectives	https://github.com/Kin230k/Template2/issues/14	https://github.com/Kin230k/Template2/issues/1
+Conduct Feasibility Study	https://github.com/Kin230k/Template2/issues/15	https://github.com/Kin230k/Template2/issues/1
+Define High-Level Requirements	https://github.com/Kin230k/Template2/issues/16	https://github.com/Kin230k/Template2/issues/1
+Develop Initial Risk Log	https://github.com/Kin230k/Template2/issues/17	https://github.com/Kin230k/Template2/issues/1
+Develop Project Scope Statement	https://github.com/Kin230k/Template2/issues/18	https://github.com/Kin230k/Template2/issues/1
+Create Project Charter	https://github.com/Kin230k/Template2/issues/19	https://github.com/Kin230k/Template2/issues/1
+Kickoff Meeting	https://github.com/Kin230k/Template2/issues/20	https://github.com/Kin230k/Template2/issues/1
+Set Meeting Cadence and Types	https://github.com/Kin230k/Template2/issues/21	https://github.com/Kin230k/Template2/issues/2
+Set Escalation Procedures	https://github.com/Kin230k/Template2/issues/22	https://github.com/Kin230k/Template2/issues/2
+Assign Meeting Facilitators	https://github.com/Kin230k/Template2/issues/23	https://github.com/Kin230k/Template2/issues/2
+Conduct Stakeholder Interviews	https://github.com/Kin230k/Template2/issues/24	https://github.com/Kin230k/Template2/issues/3
+Collect Business Requirements	https://github.com/Kin230k/Template2/issues/25	https://github.com/Kin230k/Template2/issues/3
+Collect Functional Requirements	https://github.com/Kin230k/Template2/issues/26	https://github.com/Kin230k/Template2/issues/3
+Collect Non-Functional Requirements	https://github.com/Kin230k/Template2/issues/27	https://github.com/Kin230k/Template2/issues/3
+Validate Requirements with Stakeholders	https://github.com/Kin230k/Template2/issues/28	https://github.com/Kin230k/Template2/issues/3
+Analyze and Prioritize Requirements	https://github.com/Kin230k/Template2/issues/29	https://github.com/Kin230k/Template2/issues/3
+Create Requirements Specification Document	https://github.com/Kin230k/Template2/issues/30	https://github.com/Kin230k/Template2/issues/3
+Define Acceptance Criteria	https://github.com/Kin230k/Template2/issues/31	https://github.com/Kin230k/Template2/issues/3
+Define Sprint Goals	https://github.com/Kin230k/Template2/issues/32	https://github.com/Kin230k/Template2/issues/4
+Groom and Prioritize Product Backlog	https://github.com/Kin230k/Template2/issues/33	https://github.com/Kin230k/Template2/issues/4
+Select Tasks for Sprint Backlog	https://github.com/Kin230k/Template2/issues/34	https://github.com/Kin230k/Template2/issues/4
+Define Acceptance Criteria and Definition of Done	https://github.com/Kin230k/Template2/issues/36	https://github.com/Kin230k/Template2/issues/4
+Estimate Effort for User Stories / Tasks	https://github.com/Kin230k/Template2/issues/35	https://github.com/Kin230k/Template2/issues/4
+Assign Team Roles and Responsibilities	https://github.com/Kin230k/Template2/issues/37	https://github.com/Kin230k/Template2/issues/4
+Set Sprint Timeline and Ceremonies	https://github.com/Kin230k/Template2/issues/38	https://github.com/Kin230k/Template2/issues/4
+Define System Architecture Overview	https://github.com/Kin230k/Template2/issues/39	https://github.com/Kin230k/Template2/issues/5
+Develop Use Case Models	https://github.com/Kin230k/Template2/issues/40	https://github.com/Kin230k/Template2/issues/5
+Create Entity Relationship Diagram (ERD)	https://github.com/Kin230k/Template2/issues/42	https://github.com/Kin230k/Template2/issues/5
+Create Decision Table Diagram	https://github.com/Kin230k/Template2/issues/41	https://github.com/Kin230k/Template2/issues/5
+Create Class Diagram	https://github.com/Kin230k/Template2/issues/43	https://github.com/Kin230k/Template2/issues/5
+Create Data Flow Diagram (DFD)	https://github.com/Kin230k/Template2/issues/44	https://github.com/Kin230k/Template2/issues/5
+Create Activity Diagram	https://github.com/Kin230k/Template2/issues/45	https://github.com/Kin230k/Template2/issues/5
+Create Sequence Diagram	https://github.com/Kin230k/Template2/issues/46	https://github.com/Kin230k/Template2/issues/5
+Design System Interfaces Diagram	https://github.com/Kin230k/Template2/issues/47	https://github.com/Kin230k/Template2/issues/5
+Build Design System / UI Elements Library	https://github.com/Kin230k/Template2/issues/49	https://github.com/Kin230k/Template2/issues/6
+Review and Approve Architecture Package	https://github.com/Kin230k/Template2/issues/48	https://github.com/Kin230k/Template2/issues/6
+Define Brand Design Variables	https://github.com/Kin230k/Template2/issues/50	https://github.com/Kin230k/Template2/issues/6
+Conduct User Journey Mapping	https://github.com/Kin230k/Template2/issues/51	https://github.com/Kin230k/Template2/issues/6
+Create UX Flows (User Experience Design)	https://github.com/Kin230k/Template2/issues/52	https://github.com/Kin230k/Template2/issues/6
+Develop Wireframes (Low-Fidelity Layouts)	https://github.com/Kin230k/Template2/issues/53	https://github.com/Kin230k/Template2/issues/6
+Design UI Screens (High-Fidelity Visuals)	https://github.com/Kin230k/Template2/issues/54	https://github.com/Kin230k/Template2/issues/6
+Conduct Usability Testing	https://github.com/Kin230k/Template2/issues/55	https://github.com/Kin230k/Template2/issues/6
+Design Review and Approval	https://github.com/Kin230k/Template2/issues/56	https://github.com/Kin230k/Template2/issues/6
+Develop Frontend Interfaces	https://github.com/Kin230k/Template2/issues/57	https://github.com/Kin230k/Template2/issues/7
+Testing – UI/UX Consistency & Responsiveness	https://github.com/Kin230k/Template2/issues/58	https://github.com/Kin230k/Template2/issues/7
+Review – UI Code & Visual Review	https://github.com/Kin230k/Template2/issues/59	https://github.com/Kin230k/Template2/issues/7
+Create Data Structures & Seed Data	https://github.com/Kin230k/Template2/issues/60	https://github.com/Kin230k/Template2/issues/7
+Testing – Data Accuracy & Relationships	https://github.com/Kin230k/Template2/issues/61	https://github.com/Kin230k/Template2/issues/7
+Review – Data Model Validation	https://github.com/Kin230k/Template2/issues/62	https://github.com/Kin230k/Template2/issues/7
+Develop Backend Logic / API	https://github.com/Kin230k/Template2/issues/63	https://github.com/Kin230k/Template2/issues/7
+Testing – Unit & Integration Tests for API	https://github.com/Kin230k/Template2/issues/64	https://github.com/Kin230k/Template2/issues/7
+Review – Code Review & Refactoring	https://github.com/Kin230k/Template2/issues/65	https://github.com/Kin230k/Template2/issues/7
+Backend–Frontend–Database Integration	https://github.com/Kin230k/Template2/issues/66	https://github.com/Kin230k/Template2/issues/7
+Testing – Full Stack Flow Test	https://github.com/Kin230k/Template2/issues/67	https://github.com/Kin230k/Template2/issues/7
+Review – Integration Demo & Code Walkthrough	https://github.com/Kin230k/Template2/issues/68	https://github.com/Kin230k/Template2/issues/7
+Prepare Test Plan & Strategy	https://github.com/Kin230k/Template2/issues/69	https://github.com/Kin230k/Template2/issues/8
+Develop Test Cases & Test Scenarios	https://github.com/Kin230k/Template2/issues/70	https://github.com/Kin230k/Template2/issues/8
+Conduct Unit Testing	https://github.com/Kin230k/Template2/issues/71	https://github.com/Kin230k/Template2/issues/8
+Conduct System Testing	https://github.com/Kin230k/Template2/issues/73	https://github.com/Kin230k/Template2/issues/8
+Conduct Integration Testing	https://github.com/Kin230k/Template2/issues/72	https://github.com/Kin230k/Template2/issues/8
+Conduct Regression Testing	https://github.com/Kin230k/Template2/issues/74	https://github.com/Kin230k/Template2/issues/8
+Conduct User Acceptance Testing (UAT)	https://github.com/Kin230k/Template2/issues/75	https://github.com/Kin230k/Template2/issues/8
+Log and Manage Bugs / Issues	https://github.com/Kin230k/Template2/issues/76	https://github.com/Kin230k/Template2/issues/8
+Fix Critical & High-Priority Bugs	https://github.com/Kin230k/Template2/issues/77	https://github.com/Kin230k/Template2/issues/8
+Prepare Deployment Environment	https://github.com/Kin230k/Template2/issues/78	https://github.com/Kin230k/Template2/issues/9
+Final Pre-Deployment Checklist	https://github.com/Kin230k/Template2/issues/79	https://github.com/Kin230k/Template2/issues/9
+Create Deployment Plan & Rollback Strategy	https://github.com/Kin230k/Template2/issues/80	https://github.com/Kin230k/Template2/issues/9
+Perform Deployment	https://github.com/Kin230k/Template2/issues/81	https://github.com/Kin230k/Template2/issues/9
+Post-Deployment Smoke Testing	https://github.com/Kin230k/Template2/issues/82	https://github.com/Kin230k/Template2/issues/9
+Inform Stakeholders & Users	https://github.com/Kin230k/Template2/issues/84	https://github.com/Kin230k/Template2/issues/9
+Address Post-Launch Hotfixes	https://github.com/Kin230k/Template2/issues/83	https://github.com/Kin230k/Template2/issues/9
+Monitor System Performance	https://github.com/Kin230k/Template2/issues/85	https://github.com/Kin230k/Template2/issues/9
+Archive Deployment Package & Document Version	https://github.com/Kin230k/Template2/issues/86	https://github.com/Kin230k/Template2/issues/9
+Prepare Retrospective Agenda	https://github.com/Kin230k/Template2/issues/88	https://github.com/Kin230k/Template2/issues/11
+Deployment Retrospective	https://github.com/Kin230k/Template2/issues/87	https://github.com/Kin230k/Template2/issues/9
+Gather Sprint Metrics	https://github.com/Kin230k/Template2/issues/89	https://github.com/Kin230k/Template2/issues/11
+Identify Improvement Areas	https://github.com/Kin230k/Template2/issues/90	https://github.com/Kin230k/Template2/issues/11
+Propose Actionable Changes	https://github.com/Kin230k/Template2/issues/91	https://github.com/Kin230k/Template2/issues/11
+Recognize Achievements	https://github.com/Kin230k/Template2/issues/92	https://github.com/Kin230k/Template2/issues/11
+Document Retrospective Outcomes	https://github.com/Kin230k/Template2/issues/93	https://github.com/Kin230k/Template2/issues/11
+Identify Stakeholders & Report Types	https://github.com/Kin230k/Template2/issues/94	https://github.com/Kin230k/Template2/issues/10
+Define Reporting Objectives & Frequency	https://github.com/Kin230k/Template2/issues/95	https://github.com/Kin230k/Template2/issues/10
+Choose Reporting Format & Tools	https://github.com/Kin230k/Template2/issues/96	https://github.com/Kin230k/Template2/issues/10
+Gather and Validate Project Data	https://github.com/Kin230k/Template2/issues/97	https://github.com/Kin230k/Template2/issues/10
+"Highlight Risks, Issues & Mitigation Plans"	https://github.com/Kin230k/Template2/issues/98	https://github.com/Kin230k/Template2/issues/10
+Generate Project Status Report	https://github.com/Kin230k/Template2/issues/99	https://github.com/Kin230k/Template2/issues/10
+Share Report with Stakeholders	https://github.com/Kin230k/Template2/issues/100	https://github.com/Kin230k/Template2/issues/10
+Collect Feedback & Questions	https://github.com/Kin230k/Template2/issues/101	https://github.com/Kin230k/Template2/issues/10
+Track Historical Reports	https://github.com/Kin230k/Template2/issues/102	https://github.com/Kin230k/Template2/issues/10
+Collect and Analyze User Feedback	https://github.com/Kin230k/Template2/issues/103	https://github.com/Kin230k/Template2/issues/12
