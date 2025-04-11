@@ -103,6 +103,15 @@ const initialSetup = async () => {
     "Is the repository in the workflow the same as the project?",
     "Please choose the same repository used in the project, then press Enter to continue."
   );
+  await confirmWithChoices(
+    `Did you update the sprint dates from ${projectStartDate} to ${sprintEndDate}?`,
+    `Please change the sprint date range in the project settings to:
+
+  Start: ${projectStartDate}
+  End:   ${sprintEndDate}
+
+Then press Enter to continue.`
+  );
 };
 
 await initialSetup();
@@ -183,15 +192,6 @@ const steps = [
         "Did you export rulesets from Template repo and import them to the new repo?",
       message:
         "Go to Template repo >> Settings >> Rulesets >> Export all, then go to the new repo and import them. Press Enter to continue.",
-    },
-    {
-      question: `Did you update the sprint dates from ${projectStartDate} to ${sprintEndDate}?`,
-      message: `Please change the sprint date range in the project settings to:
-
-  Start: ${projectStartDate}
-  End:   ${sprintEndDate}
-
-Then press Enter to continue.`,
     },
     {
       question: "Did you add the development sprint to all issues?",
