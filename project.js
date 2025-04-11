@@ -41,9 +41,9 @@ function parseTSV(filepath) {
   const headers = lines[0].split("\t");
   const rows = lines.slice(1).map((line) => {
     const values = line.split("\t");
-    return Object.fromEntries(headers.map((h, i) => [h, values[i]]));
+    return Object.fromEntries(headers.map((h, i) => [h.trim(), values[i]]));
   });
-  return { headers, rows };
+  return { headers: headers.map((h) => h.trim()), rows };
 }
 
 async function getUserProjectId(projectName) {
@@ -146,25 +146,32 @@ async function updateFieldValue(
     }
   `;
 
-  const input = {
-    projectId,
-    itemId,
-    fieldId,
-    value:
+  let preparedValue;
+  try {
+    let cleanedValue =
+      typeof value === "string" ? value.trim().replace(/^"|"$/g, "") : value;
+    preparedValue =
       dataType === "NUMBER"
-        ? { number: parseFloat(value) }
+        ? { number: parseFloat(cleanedValue) }
         : dataType === "DATE"
-        ? { date: value }
+        ? { date: cleanedValue }
         : dataType === "SINGLE_SELECT"
-        ? { singleSelectOptionId: await getOptionId(fieldId, value) }
+        ? { singleSelectOptionId: await getOptionId(fieldId, cleanedValue) }
         : dataType === "ITERATION"
-        ? { iterationId: await getIterationId(fieldId, value) }
+        ? { iterationId: await getIterationId(fieldId, cleanedValue) }
         : dataType === "TEXT" || key === "Depend on #" || key === "Parent issue"
-        ? { text: value }
-        : value,
-  };
+        ? { text: cleanedValue }
+        : cleanedValue;
+  } catch (error) {
+    console.error(
+      `❌ Failed to prepare value for '${key}' with value '${value}': ${error.message}`
+    );
+    throw error;
+  }
 
-  await gql(mutation, { input });
+  await gql(mutation, {
+    input: { projectId, itemId, fieldId, value: preparedValue },
+  });
 }
 
 async function getIterationId(fieldId, label) {
@@ -212,7 +219,7 @@ async function getOptionId(fieldId, label) {
 function shiftDate(dateStr, diffDays) {
   if (!dateStr || typeof dateStr !== "string") return null;
 
-  const date = new Date(dateStr); // Handles formats like "Jan 1, 2025"
+  const date = new Date(dateStr);
   if (isNaN(date)) return null;
 
   date.setDate(date.getDate() + diffDays);
@@ -249,7 +256,7 @@ async function updateProjectFields(projectName, targetRepo, { headers, rows }) {
   const projectId = await getUserProjectId(projectName);
   const items = await getProjectItems(projectId);
   const fields = await getProjectFields(projectId);
-  const fieldMap = Object.fromEntries(fields.map((f) => [f.name, f]));
+  const fieldMap = Object.fromEntries(fields.map((f) => [f.name.trim(), f]));
   const titleToNumberMap = Object.fromEntries(
     items.map((i) => [i.content?.title, i.content?.number])
   );
@@ -274,7 +281,13 @@ async function updateProjectFields(projectName, targetRepo, { headers, rows }) {
     const fieldsToUpdate = ["Starts", "Due", "Type", "Phase", "Sprint"];
 
     for (const key of headers) {
-      if (key === "Title" || !fieldsToUpdate.includes(key)) continue;
+      if (
+        key.trim().toLowerCase() === "title" ||
+        !fieldsToUpdate
+          .map((f) => f.toLowerCase())
+          .includes(key.trim().toLowerCase())
+      )
+        continue;
       const oldValue = row[key];
       if (
         typeof oldValue === "string" &&
@@ -290,10 +303,16 @@ async function updateProjectFields(projectName, targetRepo, { headers, rows }) {
     }
 
     for (const key of headers) {
-      if (key === "Title" || !fieldsToUpdate.includes(key)) continue;
+      if (
+        key.trim().toLowerCase() === "title" ||
+        !fieldsToUpdate
+          .map((f) => f.toLowerCase())
+          .includes(key.trim().toLowerCase())
+      )
+        continue;
       let value = row[key];
 
-      const field = fieldMap[key];
+      const field = fieldMap[key.trim()];
       try {
         if (!field) {
           console.warn(`⚠️  Field '${key}' not found in project.`);
